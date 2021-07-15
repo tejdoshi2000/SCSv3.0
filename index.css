@@ -115,7 +115,6 @@ a {
     align-items: center;
     padding: 0rem 1.5rem;
     height: 4.5rem;
-    
 }
 .navbar ul{
     text-decoration: none;
@@ -189,11 +188,18 @@ a {
         padding: 0.5rem;
         letter-spacing: 1px;
 }
+@media only screen and (max-width: 768px){
+    .header{
+        height: 45px;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 4.9rem;
+        top: 4.55rem;
         flex-direction: column;
         background-color:#4267b2;
         width: 100%;
@@ -205,15 +211,15 @@ a {
             margin-top: 0;
             border-top: 2px solid white;
     }
+    
     .flip-card {
         background-color: transparent;
         width: 35rem;
         height: 25rem;
         perspective: 1000px;
         margin: 5% auto;
-        
-        
       }
+      
       
   .flip-card-front h1{
     text-align: center;

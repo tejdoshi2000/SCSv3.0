@@ -170,7 +170,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0rem 1.5rem;
-  
+  height: 4.5rem;
   
   
 }
@@ -229,6 +229,13 @@ a {
 }
 .nav-item:hover .nav-link{
   color: #4267b2;
+}
+@media only screen and (max-width: 768px){
+  .header{
+      height: 45px;
+      justify-content: center;
+      align-items: center;
+  }
 }
 @media only screen and (max-width: 768px) {
   .nav-menu {
