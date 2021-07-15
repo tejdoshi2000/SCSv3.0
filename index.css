@@ -113,6 +113,9 @@ a {
     height: 4.5rem;
     
 }
+.navbar ul{
+    text-decoration: none;
+}
 .hamburger {
     display: none;
 }
