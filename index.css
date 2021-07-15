@@ -104,6 +104,10 @@ a {
     align-items: center;
     
 }
+.Navstyle{
+    text-decoration: none;
+    list-style: none;
+}
 
 .navbar {
     display: flex;
