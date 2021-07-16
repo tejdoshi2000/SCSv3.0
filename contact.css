@@ -63,9 +63,13 @@ form .input-box span.details{
 .req{
   padding: 4px;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.user-details .input-box input:focus{
   border-color: #36a193;
+}
+textarea{
+  outline: none;
+  border-color:#36a193 ;
+  border-radius: 4px;
 }
  form .category{
    display: flex;
@@ -257,13 +261,19 @@ a {
   .nav-menu.active {
       left: 0;
   }
+  .nav-item {
+    margin: 1.6rem 0;
+    /* margin-inline: 100px; */
+    /* width: 100%; */
+}
   .header{
     height: 5rem;
   }
+  .nav-logo{
+    padding-top: 1rem;
+}
 
-  .nav-item {
-      margin: 2.5rem 0;
-  }
+  
   .nav-logo{
     padding-top: 1rem;
   }
