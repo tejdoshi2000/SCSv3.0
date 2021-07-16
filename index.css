@@ -377,6 +377,7 @@ a {
     text-align: center;
     text-decoration:underline;
     padding-top: 1rem;
+    font-size: 4rem;
 }
 .about div{
     padding: 2.1rem;
@@ -384,6 +385,8 @@ a {
 .about h1{
     text-align: center;
     text-decoration: underline;
+    padding-top: 1rem;
+    font-size: 4rem;
 }
 
 @media only screen and (max-width: 768px){
