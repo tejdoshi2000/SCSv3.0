@@ -14,7 +14,7 @@ html,body{
   /* padding: 10px; */
   /* background: linear-gradient( to bottom right, rgb(30, 101, 182), rgb(31, 177, 50)); */
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
  background-color: rgb(172, 165, 165); 
 }
 .container1{
@@ -170,7 +170,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0rem 1.5rem;
-  height: 4.5rem;
+  height: 5.2rem;
   
   
 }
@@ -218,6 +218,7 @@ a {
   font-size: 2.1rem;
   font-weight: 500;
   color: white;
+  padding-bottom: 1.5rem;
 }
 .nav-logo:hover{
   color: white;
@@ -259,12 +260,12 @@ a {
   .header{
     height: 5rem;
   }
-  .navbar{
-    
-  }
 
   .nav-item {
       margin: 2.5rem 0;
+  }
+  .nav-logo{
+    padding-top: 1rem;
   }
 
   .hamburger {

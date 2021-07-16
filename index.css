@@ -293,7 +293,7 @@ a {
 /* Intro */
 .intro{
     background-image: url("intro.jpg");
-    height: 75vh;
+    height: 65vh;
     margin-top: 0;
     background-position: center;
     background-size: cover;

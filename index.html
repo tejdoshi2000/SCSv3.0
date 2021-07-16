@@ -317,10 +317,10 @@
             <a href="#services" class="text-reset textDeco">Services</a>
           </p>
           <p>
-            <a href="whyus" class="text-reset textDeco">Why Us?</a>
+            <a href="#whyus" class="text-reset textDeco">Why Us?</a>
           </p>
           <p>
-            <a href="contact.html" class="text-reset textDeco">Lets Talk</a>
+            <a href="contact.html" class="text-reset textDeco">Let's Talk!</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -389,7 +389,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 500, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -404,7 +404,7 @@ $(document).ready(function(){
     var offset = ($(this).attr('data-offset') ? $(this).attr('data-offset') : 0);
     $('body,html').animate({
         scrollTop: $(target).offset().top - offset
-    }, 700);
+    }, 500);
 });
 </script>
 </html> 
